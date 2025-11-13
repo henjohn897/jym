@@ -1,0 +1,35 @@
+/**
+ * @file
+ * Visual styles for buttons.
+ */
+
+.button,
+.image-button {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+.button:first-child,
+.image-button:first-child {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/*
+     FILE ARCHIVED ON 14:39:26 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:49 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.856
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.007
+  esindex: 0.011
+  cdx.remote: 32.917
+  LoadShardBlock: 114.954 (3)
+  PetaboxLoader3.datanode: 146.225 (4)
+  load_resource: 37.694
+*/

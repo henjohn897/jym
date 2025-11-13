@@ -1,0 +1,67 @@
+/**
+ * @file
+ * Visual styles for exposed filters.
+ */
+
+.exposed-filters .filters {
+  float: left; /* LTR */
+  margin-right: 1em; /* LTR */
+}
+[dir="rtl"] .exposed-filters .filters {
+  float: right;
+  margin-right: 0;
+  margin-left: 1em;
+}
+.exposed-filters .form-item {
+  margin: 0 0 0.1em 0;
+  padding: 0;
+}
+.exposed-filters .form-item label {
+  float: left; /* LTR */
+  width: 10em;
+  font-weight: normal;
+}
+[dir="rtl"] .exposed-filters .form-item label {
+  float: right;
+}
+.exposed-filters .form-select {
+  width: 14em;
+}
+/* Current filters */
+.exposed-filters .current-filters {
+  margin-bottom: 1em;
+}
+.exposed-filters .current-filters .placeholder {
+  font-weight: bold;
+  font-style: normal;
+}
+.exposed-filters .additional-filters {
+  float: left; /* LTR */
+  margin-right: 1em; /* LTR */
+}
+[dir="rtl"] .exposed-filters .additional-filters {
+  float: right;
+  margin-right: 0;
+  margin-left: 1em;
+}
+
+/*
+     FILE ARCHIVED ON 14:39:35 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:50 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.672
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.007
+  esindex: 0.012
+  cdx.remote: 113.056
+  LoadShardBlock: 222.473 (3)
+  PetaboxLoader3.datanode: 142.474 (4)
+  load_resource: 861.569
+  PetaboxLoader3.resolve: 791.181
+*/

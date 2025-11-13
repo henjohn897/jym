@@ -1,0 +1,52 @@
+/**
+ * @file
+ * Visual styles for collapsible fieldsets.
+ */
+
+.collapse-processed > summary {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+.collapse-processed > summary:before {
+  float: left; /* LTR */
+  width: 1em;
+  height: 1em;
+  content: "";
+  background: url(/web/20250205143928im_/https://kb.perfectgym.com/core/misc/menu-expanded.png) 0 100% no-repeat; /* LTR */
+}
+[dir="rtl"] .collapse-processed > summary:before {
+  float: right;
+  background-position: 100% 100%;
+}
+.collapse-processed:not([open]) > summary:before {
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  background-position: 25% 35%; /* LTR */
+}
+[dir="rtl"] .collapse-processed:not([open]) > summary:before {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-position: 75% 35%;
+}
+
+/*
+     FILE ARCHIVED ON 14:39:28 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:50 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.739
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.01
+  cdx.remote: 19.416
+  LoadShardBlock: 218.771 (3)
+  PetaboxLoader3.datanode: 236.716 (4)
+  load_resource: 54.032
+*/

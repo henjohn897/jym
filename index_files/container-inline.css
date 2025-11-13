@@ -1,0 +1,42 @@
+/**
+ * @file
+ * Inline items.
+ */
+
+.container-inline label:after,
+.container-inline .label:after {
+  content: ":";
+}
+.form-type-radios .container-inline label:after,
+.form-type-checkboxes .container-inline label:after {
+  content: "";
+}
+.form-type-radios .container-inline .form-type-radio,
+.form-type-checkboxes .container-inline .form-type-checkbox {
+  margin: 0 1em;
+}
+.container-inline .form-actions,
+.container-inline.form-actions {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*
+     FILE ARCHIVED ON 14:39:30 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:49 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 2.0
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.007
+  esindex: 0.012
+  cdx.remote: 69.473
+  LoadShardBlock: 296.091 (3)
+  PetaboxLoader3.datanode: 281.066 (4)
+  load_resource: 34.672
+*/

@@ -1,0 +1,70 @@
+/**
+ * @file
+ * Throbber.
+ */
+
+.ajax-progress {
+  display: inline-block;
+  padding: 1px 5px 2px 5px;
+}
+[dir="rtl"] .ajax-progress {
+  float: right;
+}
+.ajax-progress-throbber .throbber {
+  display: inline;
+  padding: 1px 5px 2px;
+  background: transparent url(/web/20250205143653im_/https://kb.perfectgym.com/core/themes/stable/images/core/throbber-active.gif) no-repeat 0 center;
+}
+.ajax-progress-throbber .message {
+  display: inline;
+  padding: 1px 5px 2px;
+}
+tr .ajax-progress-throbber .throbber {
+  margin: 0 2px;
+}
+.ajax-progress-bar {
+  width: 16em;
+}
+
+/* Full screen throbber */
+.ajax-progress-fullscreen {
+  position: fixed;
+  z-index: 1000;
+  top: 48.5%;
+  /* Can't do center:50% middle: 50%, so approximate it for a typical window size. */
+  left: 49%; /* LTR */
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  opacity: 0.9;
+  border-radius: 7px;
+  background-color: #232323;
+  background-image: url(/web/20250205143653im_/https://kb.perfectgym.com/core/themes/stable/images/core/loading-small.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+[dir="rtl"] .ajax-progress-fullscreen {
+  right: 49%;
+  left: auto;
+}
+
+/*
+     FILE ARCHIVED ON 14:36:53 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:29 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.746
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.007
+  esindex: 0.01
+  cdx.remote: 55.504
+  LoadShardBlock: 289.666 (3)
+  PetaboxLoader3.datanode: 289.638 (4)
+  load_resource: 105.549
+  PetaboxLoader3.resolve: 47.253
+*/

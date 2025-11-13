@@ -1,0 +1,53 @@
+/**
+ * @file
+ * Alignment classes for text and block level elements.
+ */
+
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-justify {
+  text-align: justify;
+}
+
+/**
+ * Alignment classes for block level elements (images, videos, blockquotes, etc.)
+ */
+.align-left {
+  float: left;
+}
+.align-right {
+  float: right;
+}
+.align-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*
+     FILE ARCHIVED ON 14:36:55 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:29 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.738
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.007
+  esindex: 0.011
+  cdx.remote: 28.192
+  LoadShardBlock: 432.716 (3)
+  PetaboxLoader3.datanode: 628.779 (4)
+  load_resource: 453.404
+  PetaboxLoader3.resolve: 256.14
+*/

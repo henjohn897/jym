@@ -1,0 +1,34 @@
+/**
+ * @file
+ * Inline items.
+ */
+
+.container-inline div,
+.container-inline label {
+  display: inline;
+}
+/* Details contents always need to be rendered as block. */
+.container-inline .details-wrapper {
+  display: block;
+}
+
+/*
+     FILE ARCHIVED ON 14:37:01 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:30 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.903
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.007
+  esindex: 0.011
+  cdx.remote: 35.694
+  LoadShardBlock: 228.901 (3)
+  PetaboxLoader3.datanode: 254.567 (4)
+  PetaboxLoader3.resolve: 133.357 (2)
+  load_resource: 243.159
+*/

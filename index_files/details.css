@@ -1,0 +1,43 @@
+/**
+ * @file
+ * Collapsible details.
+ *
+ * @see collapse.js
+ * @see http://nicolasgallagher.com/css-background-image-hacks/
+ */
+
+details {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+}
+details > .details-wrapper {
+  padding: 0.5em 1.5em;
+}
+/* @todo Regression: The summary of uncollapsible details are no longer
+     vertically aligned with the .details-wrapper in browsers without native
+     details support. */
+summary {
+  padding: 0.2em 0.5em;
+  cursor: pointer;
+}
+
+/*
+     FILE ARCHIVED ON 14:39:32 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:49 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.665
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.007
+  esindex: 0.01
+  cdx.remote: 7.306
+  LoadShardBlock: 90.447 (3)
+  PetaboxLoader3.datanode: 119.515 (4)
+  load_resource: 35.752
+*/
