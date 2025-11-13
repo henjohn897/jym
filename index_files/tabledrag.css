@@ -1,0 +1,34 @@
+/**
+ * @file
+ * Visual styles for table drag.
+ */
+
+tr.drag {
+  background-color: #fffff0;
+}
+tr.drag-previous {
+  background-color: #ffd;
+}
+body div.tabledrag-changed-warning {
+  margin-bottom: 0.5em;
+}
+
+/*
+     FILE ARCHIVED ON 14:39:59 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:51 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.042
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.011
+  esindex: 0.016
+  cdx.remote: 200.603
+  LoadShardBlock: 206.485 (3)
+  PetaboxLoader3.datanode: 312.08 (4)
+  load_resource: 138.134
+*/

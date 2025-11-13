@@ -1,0 +1,36 @@
+/**
+ * @file
+ * Visual styles for pager.
+ */
+
+.pager__items {
+  clear: both;
+  text-align: center;
+}
+.pager__item {
+  display: inline;
+  padding: 0.5em;
+}
+.pager__item.is-active {
+  font-weight: bold;
+}
+
+/*
+     FILE ARCHIVED ON 14:39:57 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:51 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.845
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.009
+  esindex: 0.012
+  cdx.remote: 90.384
+  LoadShardBlock: 217.279 (3)
+  PetaboxLoader3.datanode: 136.109 (4)
+  load_resource: 44.447
+*/

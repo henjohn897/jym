@@ -1,0 +1,42 @@
+/**
+ * @file
+ * Visual styles for icons.
+ */
+
+.icon-help {
+  padding: 1px 0 1px 20px; /* LTR */
+  background: url(/web/20250205143942im_/https://kb.perfectgym.com/core/misc/help.png) 0 50% no-repeat; /* LTR */
+}
+[dir="rtl"] .icon-help {
+  padding: 1px 20px 1px 0;
+  background-position: 100% 50%;
+}
+.feed-icon {
+  display: block;
+  overflow: hidden;
+  width: 16px;
+  height: 16px;
+  text-indent: -9999px;
+  background: url(/web/20250205143942im_/https://kb.perfectgym.com/core/misc/feed.svg) no-repeat;
+}
+
+/*
+     FILE ARCHIVED ON 14:39:42 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:50 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.676
+  exclusion.robots: 0.024
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 152.33
+  LoadShardBlock: 85.26 (3)
+  PetaboxLoader3.datanode: 163.678 (4)
+  load_resource: 399.151
+  PetaboxLoader3.resolve: 294.934
+*/

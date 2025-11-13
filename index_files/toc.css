@@ -1,0 +1,35 @@
+a.back-to-top {
+  float: right;
+  font-size: 0.7rem;
+  display: none;
+}
+.toc-js.sticky {
+  position: relative;
+}
+.toc-js.sticky.is-sticked {
+  position: fixed;
+}
+
+.toc-js {
+  display: none;
+}
+
+/*
+     FILE ARCHIVED ON 14:38:07 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:46 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.809
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.008
+  esindex: 0.012
+  cdx.remote: 31.83
+  LoadShardBlock: 265.844 (3)
+  PetaboxLoader3.datanode: 408.359 (4)
+  load_resource: 151.412
+*/

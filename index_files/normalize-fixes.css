@@ -1,0 +1,33 @@
+/**
+ * @file
+ * Fixes for core/assets/vendor/normalize-css/normalize.css since version 3.
+ */
+
+/**
+ * Fix problem with details/summary lines missing the drop arrows.
+ */
+@media (min--moz-device-pixel-ratio: 0) {
+  summary {
+    display: list-item;
+  }
+}
+
+/*
+     FILE ARCHIVED ON 14:39:20 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:49 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.848
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.009
+  esindex: 0.014
+  cdx.remote: 24.573
+  LoadShardBlock: 196.93 (3)
+  PetaboxLoader3.datanode: 204.717 (4)
+  load_resource: 47.23
+*/

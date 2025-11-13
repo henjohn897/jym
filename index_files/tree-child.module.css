@@ -1,0 +1,38 @@
+/**
+ * @file
+ * Visual styles for a nested tree child.
+ */
+
+div.tree-child {
+  background: url(/web/20250205143740im_/https://kb.perfectgym.com/core/themes/stable/images/core/tree.png) no-repeat 11px center; /* LTR */
+}
+div.tree-child-last {
+  background: url(/web/20250205143740im_/https://kb.perfectgym.com/core/themes/stable/images/core/tree-bottom.png) no-repeat 11px center; /* LTR */
+}
+[dir="rtl"] div.tree-child,
+[dir="rtl"] div.tree-child-last {
+  background-position: -65px center;
+}
+div.tree-child-horizontal {
+  background: url(/web/20250205143740im_/https://kb.perfectgym.com/core/themes/stable/images/core/tree.png) no-repeat -11px center;
+}
+
+/*
+     FILE ARCHIVED ON 14:37:40 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:38 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.815
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.009
+  esindex: 0.012
+  cdx.remote: 33.853
+  LoadShardBlock: 85.033 (3)
+  PetaboxLoader3.datanode: 103.015 (4)
+  load_resource: 43.972
+*/

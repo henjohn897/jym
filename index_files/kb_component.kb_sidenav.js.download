@@ -1,0 +1,32 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+"use strict";jQuery,Drupal,Drupal.behaviors.kbSideNav={attach:function(){jQuery(document).ready(function(){jQuery("#kb-btn-sidenav").on("click",function(){jQuery("#kb-sidenav").addClass("active"),Drupal.behaviors.kbOverlay.showOverlay(),jQuery("#js-kb-overlay").css("z-index",11)}),jQuery("#kb-btn-sidenav-dismiss").on("click",function(){jQuery("#kb-sidenav").removeClass("active"),Drupal.behaviors.kbOverlay.hideOverlay(),jQuery("#js-kb-overlay").css("z-index","unset")})})}};
+}
+/*
+     FILE ARCHIVED ON 14:41:39 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:20:28 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.76
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.007
+  esindex: 0.012
+  cdx.remote: 10.258
+  LoadShardBlock: 128.246 (3)
+  PetaboxLoader3.datanode: 267.199 (6)
+  load_resource: 4190.149 (2)
+  PetaboxLoader3.resolve: 4005.038
+  loaddict: 69.107
+*/

@@ -1,0 +1,39 @@
+/**
+ * @file
+ * Table sort indicator.
+ *
+ * @see tablesort-indicator.html.twig
+ */
+
+.tablesort {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: 100%;
+}
+.tablesort--asc {
+  background-image: url(/web/20250205143738im_/https://kb.perfectgym.com/core/themes/stable/images/core/icons/787878/twistie-down.svg);
+}
+.tablesort--desc {
+  background-image: url(/web/20250205143738im_/https://kb.perfectgym.com/core/themes/stable/images/core/icons/787878/twistie-up.svg);
+}
+
+/*
+     FILE ARCHIVED ON 14:37:38 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:38 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.834
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.006
+  esindex: 0.009
+  cdx.remote: 104.281
+  LoadShardBlock: 205.53 (3)
+  PetaboxLoader3.datanode: 251.529 (4)
+  load_resource: 49.568
+*/

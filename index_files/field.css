@@ -1,0 +1,45 @@
+/**
+ * @file
+ * Visual styles for fields.
+ */
+
+.field__label {
+  font-weight: bold;
+}
+.field--label-inline .field__label,
+.field--label-inline .field__items {
+  float: left; /* LTR */
+}
+.field--label-inline .field__label,
+.field--label-inline > .field__item,
+.field--label-inline .field__items {
+  padding-right: 0.5em;
+}
+[dir="rtl"] .field--label-inline .field__label,
+[dir="rtl"] .field--label-inline .field__items {
+  padding-right: 0;
+  padding-left: 0.5em;
+}
+.field--label-inline .field__label::after {
+  content: ":";
+}
+
+/*
+     FILE ARCHIVED ON 14:39:38 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:50 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.7
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.009
+  esindex: 0.01
+  cdx.remote: 17.202
+  LoadShardBlock: 225.281 (3)
+  PetaboxLoader3.datanode: 232.843 (4)
+  load_resource: 51.344
+*/

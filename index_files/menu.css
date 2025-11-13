@@ -1,0 +1,54 @@
+/**
+ * @file
+ * Visual styles for menu.
+ */
+
+ul.menu {
+  margin-left: 1em; /* LTR */
+  padding: 0;
+  list-style: none outside;
+  text-align: left; /* LTR */
+}
+[dir="rtl"] ul.menu {
+  margin-right: 1em;
+  margin-left: 0;
+  text-align: right;
+}
+.menu-item--expanded {
+  list-style-type: circle;
+  list-style-image: url(/web/20250205143953im_/https://kb.perfectgym.com/core/misc/menu-expanded.png);
+}
+.menu-item--collapsed {
+  list-style-type: disc;
+  list-style-image: url(/web/20250205143953im_/https://kb.perfectgym.com/core/misc/menu-collapsed.png); /* LTR */
+}
+[dir="rtl"] .menu-item--collapsed {
+  list-style-image: url(/web/20250205143953im_/https://kb.perfectgym.com/core/misc/menu-collapsed-rtl.png);
+}
+.menu-item {
+  margin: 0;
+  padding-top: 0.2em;
+}
+ul.menu a.is-active {
+  color: #000;
+}
+
+/*
+     FILE ARCHIVED ON 14:39:53 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:50 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.667
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.007
+  esindex: 0.011
+  cdx.remote: 34.95
+  LoadShardBlock: 488.442 (3)
+  PetaboxLoader3.datanode: 398.486 (4)
+  load_resource: 43.293
+*/

@@ -1,0 +1,31 @@
+/**
+ * @file
+ * Visual styles for a resizable textarea.
+ */
+
+.form-textarea-wrapper textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+
+/*
+     FILE ARCHIVED ON 14:40:08 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:51 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.642
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 9.476
+  LoadShardBlock: 84.835 (3)
+  PetaboxLoader3.datanode: 87.587 (4)
+  load_resource: 31.634
+*/

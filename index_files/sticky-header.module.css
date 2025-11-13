@@ -1,0 +1,34 @@
+/**
+ * @file
+ * Table header behavior.
+ *
+ * @see tableheader.js
+ */
+
+table.sticky-header {
+  z-index: 500;
+  top: 0;
+  margin-top: 0;
+  background-color: #fff;
+}
+
+/*
+     FILE ARCHIVED ON 14:37:27 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:35 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.774
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 13.265
+  LoadShardBlock: 235.817 (3)
+  PetaboxLoader3.datanode: 215.846 (4)
+  load_resource: 177.599
+  PetaboxLoader3.resolve: 142.75
+*/

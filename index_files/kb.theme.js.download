@@ -1,0 +1,88 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+(function(jQuery,Drupal){
+  Drupal.behaviors.kbTheme = {
+    attach: function(context,settings) {
+
+      jQuery(document).ready(function(){
+
+        //var autocomplete = Drupal.SearchApiAutocomplete;
+
+        var searchApiElements = jQuery("input[data-drupal-selector='edit-search']");
+
+        if(searchApiElements.length > 0) {
+
+          jQuery.each(searchApiElements,function(i, elem){
+
+            if(jQuery(jQuery(elem).closest('.kb-nav-search')).length > 0)
+            {
+              jQuery(elem).addClass('is-small')
+              jQuery(elem).autocomplete( "option", "position", { my : "right top", at: "right bottom" } );
+            }
+            else {
+              jQuery(elem).autocomplete( "option", "position", { my : "center top", at: "center bottom" } );
+            }
+
+            jQuery(elem).focus( function() {
+              Drupal.behaviors.kbOverlay.showOverlay();
+            });
+
+            jQuery(elem).focusout( function() {
+              Drupal.behaviors.kbOverlay.hideOverlay();
+            });
+
+            // jQuery(elem).on( "autocompleteopen", function( event, ui ) {
+            //  console.log('autocompleteopen');
+            // });
+          })
+        }
+
+        var kbNavbar = jQuery(".kb-d .kb-navbar");
+
+        if(kbNavbar) {
+          jQuery(window).scroll(function(){
+            var scroll = jQuery(window).scrollTop();
+            if(scroll >= 40) {
+              kbNavbar.addClass('is-scrolling')
+            }
+            else {
+              kbNavbar.removeClass('is-scrolling')
+            }
+          })
+        }
+
+      });
+    }
+  }
+
+})(jQuery,Drupal)
+
+}
+/*
+     FILE ARCHIVED ON 14:41:50 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:21:15 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.693
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 10.924
+  LoadShardBlock: 277.613 (3)
+  PetaboxLoader3.datanode: 392.336 (6)
+  PetaboxLoader3.resolve: 272.53 (3)
+  load_resource: 454.304 (2)
+  loaddict: 90.361
+*/

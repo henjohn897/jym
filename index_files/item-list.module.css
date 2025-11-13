@@ -1,0 +1,40 @@
+/**
+ * @file
+ * Styles for item list.
+ */
+
+.item-list__comma-list,
+.item-list__comma-list li {
+  display: inline;
+}
+.item-list__comma-list {
+  margin: 0;
+  padding: 0;
+}
+.item-list__comma-list li:after {
+  content: ", ";
+}
+.item-list__comma-list li:last-child:after {
+  content: "";
+}
+
+/*
+     FILE ARCHIVED ON 14:37:12 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:32 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.717
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 40.956
+  LoadShardBlock: 168.808 (3)
+  PetaboxLoader3.datanode: 197.735 (4)
+  load_resource: 730.0
+  PetaboxLoader3.resolve: 684.841
+*/

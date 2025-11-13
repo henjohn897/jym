@@ -1,0 +1,20 @@
+.kb-footer-block{display:flex;justify-content:space-between;border-top:1px solid #D9E1E9}@media (min-width:1366px){.kb-footer-block{padding-top:50px;padding-bottom:50px;padding-top:calc(50px + .3vw);padding-bottom:calc(50px + .3vw)}.kb-footer-block p{font-size:calc(16 * 1px + .1vw);line-height:calc(20 * 1px + .1vw)}}@media (max-width:1365px){.kb-footer-block{padding-top:50px;padding-bottom:50px}.kb-footer-block p{font-size:16px;line-height:20px}}@media (max-width:767px){.kb-footer-block{padding-top:50px;padding-bottom:50px}.kb-footer-block p{font-size:16px;line-height:20px}}.kb-footer-block a{color:#FF5614;transition:all .3s ease}.kb-footer-block a:hover{color:#FF5614;text-decoration:none}.kb-footer-block-item{order:1}@media (max-width:991px){.kb-footer-block{padding-top:50px;padding-bottom:50px;flex-wrap:wrap}.kb-footer-block p{font-size:16px;line-height:20px}.kb-footer-block-item{text-align:center;flex:1 1 100%}.kb-footer-block-item strong{display:block}.kb-footer-block-item:first-child{order:2}}.kb-footer-action-list{text-align:right}@media (max-width:991px){.kb-footer-action-list{text-align:center}}.kb-footer-action-list a{color:#252A2E}.kb-footer-action-list a svg{height:16px;width:16px;margin:0 2px 3px 0}
+/*
+     FILE ARCHIVED ON 14:38:37 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:51 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.923
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.009
+  esindex: 0.01
+  cdx.remote: 50.232
+  LoadShardBlock: 121.207 (3)
+  PetaboxLoader3.datanode: 94.938 (4)
+  load_resource: 41.602
+*/

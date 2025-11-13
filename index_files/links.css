@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Visual styles for links.
+ */
+
+ul.inline,
+ul.links.inline {
+  display: inline;
+  padding-left: 0; /* LTR */
+}
+[dir="rtl"] ul.inline,
+[dir="rtl"] ul.links.inline {
+  padding-right: 0;
+  padding-left: 15px;
+}
+ul.inline li {
+  display: inline;
+  padding: 0 0.5em;
+  list-style-type: none;
+}
+ul.links a.is-active {
+  color: #000;
+}
+
+/*
+     FILE ARCHIVED ON 14:39:51 Feb 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:50 Nov 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.757
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.008
+  esindex: 0.01
+  cdx.remote: 92.774
+  LoadShardBlock: 404.539 (3)
+  PetaboxLoader3.datanode: 271.311 (4)
+  PetaboxLoader3.resolve: 147.329
+  load_resource: 83.513
+*/
